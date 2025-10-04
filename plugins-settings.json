@@ -1,0 +1,16 @@
+{
+    "2bd1c688-31c5-443e-ae25-59aa5b6431fb": {
+        "id": "c112c74a-6c3c-4b4e-a710-7040668cb5b3",
+        "name": "REST API",
+        "designId": "e12c57ab-3173-43de-ab81-f6db6c16be1d",
+        "pluginId": "2bd1c688-31c5-443e-ae25-59aa5b6431fb",
+        "publicData": {}
+    },
+    "832d6f7a-42c3-43f1-a3ce-9a678272f811": {
+        "id": "dbb6143c-153b-4169-87ac-b3b63932571e",
+        "name": "Date",
+        "designId": "e12c57ab-3173-43de-ab81-f6db6c16be1d",
+        "pluginId": "832d6f7a-42c3-43f1-a3ce-9a678272f811",
+        "publicData": {}
+    }
+}

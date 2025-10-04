@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html class="" lang="{{lang}}">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=10, user-scalable=yes" />
+        <base href="{{baseTag.href}}" target="{{baseTag.target}}" />
+
+        {{#if title}}
+        <title>{{title}}</title>
+        {{/if}}
+
+        <link rel="icon" type="image/x-icon" href="favicon.ico?_wwcv={{cacheVersion}}" />
+
+        <link rel="manifest" href="manifest.json?_wwcv=12" />
+        <meta name="theme-color" content="" />
+        
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<link href="/fonts/Phosphor/font.css?_wwcv=12" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<link href="https://fonts.googleapis.com/css2?family=Darumadrop+One:wght@400&display=swap" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<style>:root{ --ww-default-font-family: 'Inter', sans-serif }</style>
+        
+        
+
+        {{#alternateLinks}}
+        <link rel="{{rel}}" hreflang="{{hreflang}}" href="{{href}}" />
+        {{/alternateLinks}} {{#if structuredData}}
+        <script type="application/ld+json">
+            {{structuredData}}
+        </script>
+        {{/if}} {{{scripts.head}}} {{#meta}} {{#if name}}
+        <meta name="{{name}}" content="{{content}}" />
+        {{/if}} {{#if itemprop}}
+        <meta itemprop="{{itemprop}}" content="{{content}}" />
+        {{/if}} {{#if property}}
+        <meta property="{{property}}" content="{{content}}" />
+        {{/if}} {{/meta}}
+    </head>
+    <body style="margin: 0; font-family: var(--ww-default-font-family, unset)">
+        <noscript>
+            <strong>
+                We're sorry but this website doesn't work properly without JavaScript enabled. Please enable it to
+                continue.
+            </strong>
+        </noscript>
+        <div id="app"></div>
+        {{{scripts.body}}}
+        <script type="module" src="@/_front/main.js"></script>
+    </body>
+</html>
