@@ -23,9 +23,9 @@ function scrollBehavior(to) {
 import pluginsSettings from '../../plugins-settings.json';
 
 // eslint-disable-next-line no-undef
-window.wwg_designInfo = {"id":"e12c57ab-3173-43de-ab81-f6db6c16be1d","homePageId":"29633062-ee35-4b22-980c-e85ba6c190b6","authPluginId":null,"baseTag":{},"defaultTheme":"light","langs":[{"lang":"fr","default":true}],"background":{"backgroundColor":"#F8F5E7"},"workflows":[],"pages":[{"id":"29633062-ee35-4b22-980c-e85ba6c190b6","linkId":"29633062-ee35-4b22-980c-e85ba6c190b6","name":"De Saison","folder":null,"paths":{"fr":"tous","default":"tous"},"langs":["fr"],"cmsDataSetPath":null,"sections":[{"uid":"2cb49bcd-9db5-4cec-9a7f-ff7d645fa022","sectionTitle":"Main","linkId":"f5170122-4907-4d64-8bf0-d5754bf42007"}],"pageUserGroups":[],"title":{},"meta":{"desc":{},"keywords":{},"socialDesc":{},"socialTitle":{},"structuredData":{}},"metaImage":""}],"plugins":[{"id":"832d6f7a-42c3-43f1-a3ce-9a678272f811","name":"Date","namespace":"dayjs"},{"id":"2bd1c688-31c5-443e-ae25-59aa5b6431fb","name":"REST API","namespace":"restApi"}]};
+window.wwg_designInfo = {"id":"e12c57ab-3173-43de-ab81-f6db6c16be1d","homePageId":"29633062-ee35-4b22-980c-e85ba6c190b6","authPluginId":null,"baseTag":{},"defaultTheme":"light","langs":[{"lang":"fr","default":true}],"background":{"backgroundColor":"#F8F5E7"},"workflows":[],"pages":[{"id":"29633062-ee35-4b22-980c-e85ba6c190b6","linkId":"29633062-ee35-4b22-980c-e85ba6c190b6","name":"De Saison","folder":null,"paths":{"fr":"tous","default":"tous"},"langs":["fr"],"cmsDataSetPath":null,"sections":[{"uid":"2cb49bcd-9db5-4cec-9a7f-ff7d645fa022","sectionTitle":"Main","linkId":"f5170122-4907-4d64-8bf0-d5754bf42007"}],"pageUserGroups":[],"title":{"fr":"De Saison"},"meta":{"desc":{"fr":"Quels sont les fruits et légumes à consommer ce mois-ci ?"},"keywords":{},"socialDesc":{},"socialTitle":{},"structuredData":{}},"metaImage":"images/Fraise.webp?_wwcv=13"}],"plugins":[{"id":"832d6f7a-42c3-43f1-a3ce-9a678272f811","name":"Date","namespace":"dayjs"},{"id":"2bd1c688-31c5-443e-ae25-59aa5b6431fb","name":"REST API","namespace":"restApi"}]};
 // eslint-disable-next-line no-undef
-window.wwg_cacheVersion = 12;
+window.wwg_cacheVersion = 13;
 // eslint-disable-next-line no-undef
 window.wwg_pluginsSettings = pluginsSettings;
 // eslint-disable-next-line no-undef
